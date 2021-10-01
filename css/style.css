@@ -217,7 +217,7 @@ header nav:after{
 /*Inicio Services*/
 
 main section{
-    padding: 3em 0 ;
+    padding: 3em 1em ;
 }
 
 main section h2{
@@ -247,6 +247,23 @@ main section .underline hr{
     
 }
 
+main section .flex{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+main section .flex article{
+    width: 100%;
+    padding-bottom: 2em;
+    border-bottom: 1px solid grey;
+}
+
+main section .flex article h3{
+    font-weight: 700;
+    margin: 1em 0em;
+
+}
 
 /*Final Services*/
 
