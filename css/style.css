@@ -25,6 +25,7 @@ img{
     --fuenteSecundaria:'Handlee', cursive;
     --colorPrincipal: #fa573a;
     --colorSecundario: #21242e;
+    --colorPrincipalTransparente:#fa573aef;
     --fontsize: 1em;
     --margingrid: 1em;
     --anchomaximo:1100px;
@@ -307,7 +308,74 @@ footer a:hover{
 /*Final Footer*/
 
 
+/*Inicio Blog*/
 
+main section .flexblog{
+    display: flex;
+    width: 200px;
+}
+
+main section .flexblog article{
+    padding: 0;
+}
+
+main section .flexblog div.watermark{
+    width: 50px;
+    height: 50px;
+    background-color: var(--colorPrincipalTransparente);
+    opacity: 0.9;
+    text-align: center;    
+    padding: 10px 0px;
+}
+
+main section .flexblog div.watermark p{
+    color: white;
+}
+
+main section .flexblog figure{
+    position: relative;
+}
+
+main section .flexblog figure .watermark{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+
+main section .flexblog article h3{
+    font-weight: 700;
+    margin: 1em 0em;
+    font-size: 1.1em;
+
+}
+
+main section .flexblog article h4{
+    font-weight: 700;
+    color: var(--colorPrincipal);
+    margin: 1em 0em;
+    font-size: 1em;
+}
+
+
+main section .flexblog article p{
+    font-weight: 700;    
+    margin: 1em 0em;
+    font-size: 1em;
+}
+
+
+main section .flexblog article p a{
+    font-weight: 700;    
+    color: var(--colorPrincipal);
+    margin: 1em 0em;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+
+
+/*Final Blog*/
 
 
 
