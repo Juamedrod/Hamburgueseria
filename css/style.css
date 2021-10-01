@@ -38,7 +38,7 @@ body{
 
 .container{
     max-width: var(--anchomaximo);
-    margin:(0 auto);
+    margin:0 auto;
 
 }
 
