@@ -358,7 +358,7 @@ main section .flexblog article h4{
 }
 
 
-main section .flexblog article p{
+main section .flexblog article .articlebody p{
     font-weight: 700;    
     margin: 1em 0em;
     font-size: 1em;
@@ -371,6 +371,10 @@ main section .flexblog article p a{
     margin: 1em 0em;
     font-size: 1em;
     text-decoration: none;
+}
+
+main section .flexblog article .articlebody{
+    padding: 0px 10px;
 }
 
 
