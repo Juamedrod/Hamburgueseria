@@ -182,6 +182,18 @@ header nav:after{
     text-decoration: none;
     padding: 1.15em;
     margin: var(--margingrid) 0;
+    border: 1px solid var(--colorPrincipal);
+}
+
+.boton:hover{
+    color: var(--colorPrincipal);
+    background-color: transparent;
+    border: 1px solid var(--colorPrincipal);
+}
+
+.boton:hover i{
+    transition: 0.5s;
+    transform: translateX(5px);
 }
 /*Final HERO*/
 
