@@ -312,11 +312,16 @@ footer a:hover{
 
 main section .flexblog{
     display: flex;
-    width: 200px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 15px 0px;
+    
 }
 
 main section .flexblog article{
-    padding: 0;
+    width: calc(50% - 10px);
+    margin: 0 5px;
+    
 }
 
 main section .flexblog div.watermark{
@@ -347,6 +352,7 @@ main section .flexblog article h3{
     font-weight: 700;
     margin: 1em 0em;
     font-size: 1.1em;
+    text-transform: capitalize ;
 
 }
 
