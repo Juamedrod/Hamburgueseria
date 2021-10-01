@@ -136,3 +136,27 @@ header nav li:last-child a{
         justify-content: space-between;    
     }
 }
+
+@media(min-width:62.75em){
+
+header nav .hamburguesa{
+    display: none;
+}
+
+
+header nav .menu{
+    float: right;
+    padding-top:0px ;
+    clear: none;
+}
+
+header nav .menu li{
+    display: inline-block;
+}
+
+header nav .menu a{
+    padding: 0em;  
+    border-bottom: none;
+    padding: 0.4em 1.25em;
+}
+}
