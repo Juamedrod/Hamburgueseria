@@ -195,6 +195,21 @@ header nav:after{
     transition: 0.5s;
     transform: translateX(5px);
 }
+
+
+.hero .social{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.hero .social a{
+    
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    
+}
 /*Final HERO*/
 
 
