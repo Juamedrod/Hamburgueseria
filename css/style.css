@@ -135,6 +135,56 @@ header nav:after{
 }
 
 /*Fin header*/
+
+/*Inicio Footer*/
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--colorSecundario);
+    color: white;
+    padding:  1em 0.625em;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+
+}
+
+footer a:hover{
+    color: var(--colorPrincipal);
+}
+
+
+.arriba{
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    font-size: 2em;
+    
+}
+
+.arriba a{
+    color: var(--colorPrincipal);
+}
+
+
+
+/*Final Footer*/
+
+
+
+
+
+
+
+/*****************************************/
+/*********   MEDIAQUERIES        *********/
+
+
 @media(min-width:48em){
     header .nav-top a span{        
         display: inline;
@@ -143,6 +193,8 @@ header nav:after{
         justify-content: space-between;    
     }
 }
+
+
 
 @media(min-width:62.75em){
 
