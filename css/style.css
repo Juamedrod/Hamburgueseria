@@ -127,6 +127,13 @@ header nav li:last-child a{
     border-bottom: none;
 }
 
+header nav:after{
+    clear: both;
+    content:"";
+    display: block;
+    height: 0%;
+}
+
 /*Fin header*/
 @media(min-width:48em){
     header .nav-top a span{        
@@ -159,4 +166,12 @@ header nav .menu a{
     border-bottom: none;
     padding: 0.4em 1.25em;
 }
+
+header nav:after{
+    clear: both;
+    content:"";
+    display: block;
+    height: 0%;
+}
+
 }
