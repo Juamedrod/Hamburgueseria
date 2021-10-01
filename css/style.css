@@ -38,6 +38,35 @@ body{
 
 .container{
     max-width: var(--anchomaximo);
-    margin(o auto);
+    margin:(0 auto);
 
 }
+
+/*Inicio Header*/
+header .nav-top{
+    background-color: var(--colorSecundario);
+    padding: 20px 0px;
+}
+
+header .nav-top .container{
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+header .nav-top a{
+    color: var(--colorPrincipal);
+    text-decoration: none;
+}
+
+header .nav-top a i{
+    font-size: calc(var(--fontsize)*2);
+}
+
+header .nav-top a span{
+    color: white;
+    display: none;
+}
+/*Fin header*/
