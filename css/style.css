@@ -74,4 +74,16 @@ header .nav-top .fa-phone{
     transform: rotate(270deg);
 }
 
+
 /*Fin header*/
+
+
+
+@media(min-width:48em){
+    header .nav-top a span{        
+        display: inline;
+    }
+    header .nav-top .container{
+        justify-content: space-between;    
+    }
+}
