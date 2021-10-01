@@ -1,2 +1,24 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@400;700&display=swap');
+
+/* font-family: 'Handlee', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+html{
+    /*Genera animaciones de punto de ancla*/
+    scroll-behavior: smooth;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    
+}
