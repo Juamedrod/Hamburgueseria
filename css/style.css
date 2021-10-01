@@ -6,7 +6,7 @@
 font-family: 'Montserrat', sans-serif; */
 
 html{
-    /*Genera animaciones de punto de ancla*/
+    /*Genera animaciones de punto de ancla(La renderización hace un traveling desde donde clickamos hasta el punto de destino*/
     scroll-behavior: smooth;
 }
 
