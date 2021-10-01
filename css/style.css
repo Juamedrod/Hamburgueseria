@@ -20,5 +20,11 @@ img{
 }
 
 :root{
-    
-}
+    --fuentePrincipal:'Montserrat', sans-serif;
+    --fuenteSecundaria:'Handlee', cursive;
+    --colorPrincipal: #fa573a;
+    --colorSecundario: #21242e;
+    --fontsize: 1em;
+    --margingrid: 1em;
+    --anchomaximo:1100px;
+}                       
