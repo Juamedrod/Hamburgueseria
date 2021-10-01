@@ -75,10 +75,59 @@ header .nav-top .fa-phone{
 }
 
 
+
+
+header nav  {
+    padding: 20px 10px;
+}
+
+header nav .logo{
+    float: left;
+    max-width: 100px;
+}
+
+header nav .hamburguesa{
+    float: right;
+    width: 2em;
+    cursor: pointer;
+}
+
+
+
+header nav .hamburguesa div{
+    border-top: 2px solid #aaa;
+    margin-bottom: 0.625em;
+}
+
+header nav .menu{
+    clear: both;
+    padding-top: 00.625em;
+    text-align: center;
+
+}
+
+header nav .menu a{
+    display: block;
+    text-decoration: none;
+    padding: 1.25em;
+    color: #aaa;
+    border-bottom: 1px solid #aaa;
+}
+
+header nav .menu a:hover{
+    
+    color: var(--colorPrincipal);
+    
+}
+header nav .menu.activo{
+    color: var(--colorPrincipal);
+}
+
+header nav li:last-child a{
+    border-bottom: none;
+}
+
 /*Fin header*/
-
-
-
 @media(min-width:48em){
     header .nav-top a span{        
         display: inline;
