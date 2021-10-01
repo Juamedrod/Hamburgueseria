@@ -119,7 +119,7 @@ header nav .menu a:hover{
     color: var(--colorPrincipal);
     
 }
-header nav .menu.activo{
+header nav .menu .activo{
     color: var(--colorPrincipal);
 }
 
