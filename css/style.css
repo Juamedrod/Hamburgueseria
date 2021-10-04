@@ -463,6 +463,18 @@ main section .flexblog article .articlebody{
 
 
 
+/* Inicio del Menu */
+
+#mainmenu{
+    background-color: var(--colorSecundario);
+}
+
+
+
+/* Final del Menu */
+
+
+
 
 /*****************************************/
 /*********   MEDIAQUERIES        *********/
