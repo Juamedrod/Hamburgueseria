@@ -333,10 +333,6 @@ main #aboutus figure:hover .marco, main #aboutus figure:hover .marco img{
 
 }
 
-
-
-
-
 /*Fin del About Us*/
 
 /*Inicio Footer*/
@@ -474,15 +470,47 @@ main section .flexblog article .articlebody{
 }
 
 #mainmenu section article p{
-    margin: 1em 0;
+    margin: 1em 0;    
+}
+
+#mainmenu .container{
+    padding: 0 3em;
+}
+
+
+#mainmenu section article{
+    border: 0;    
+    margin: 1em auto;
+}
+
+#mainmenu ul li a{
+    text-decoration: none;
+    color: white;
     
 }
 
-#mainmenu section article{
-    border: 0;
-    padding: 0 3em;
-    margin: 1em auto;
+#mainmenu ul li {
+    padding: 0.75em 0;
+    
 }
+
+#mainmenu ul li:hover {
+    background-color: var(--colorPrincipal);
+}
+
+#mainmenu section div div ul{
+    margin-bottom: 3em;
+}
+
+#mainmenu section div div hr{
+    width: 50px;
+    border-color: var(--colorPrincipal);
+    align-items: left;
+    display: inline-block;
+       
+}
+
+
 /* Final del Menu */
 
 
