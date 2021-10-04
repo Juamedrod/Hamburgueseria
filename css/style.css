@@ -466,43 +466,47 @@ main section .flexblog article .articlebody{
 }
 
 #mainmenu h2, #mainmenu p, #mainmenu h3{
-    color: white;
+    color: white;  
+    
 }
+
+
 
 #mainmenu section article p{
-    margin: 1em 0;    
+    margin-bottom: 0.75em ;    
 }
 
-#mainmenu .container{
-    padding: 0 3em;
-}
 
 
 #mainmenu section article{
-    border: 0;    
-    margin: 1em auto;
+    border: 0;  
+    padding: 0;      
+    
 }
 
 #mainmenu ul li a{
     text-decoration: none;
     color: white;
+    padding-left: 0.5em;
     
 }
 
 #mainmenu ul li {
     padding: 0.75em 0;
+    border-radius: 3px;
     
 }
 
 #mainmenu ul li:hover {
     background-color: var(--colorPrincipal);
+    
 }
 
 #mainmenu section div div ul{
     margin-bottom: 3em;
 }
 
-#mainmenu section div div hr{
+#mainmenu section div div:last-child hr{
     width: 50px;
     border-color: var(--colorPrincipal);
     align-items: left;
@@ -510,6 +514,22 @@ main section .flexblog article .articlebody{
        
 }
 
+main section div div .precio{
+    display: flex;
+    justify-content: space-between;
+}
+
+main section div div .precio span{
+    color: var(--colorPrincipal);
+    margin: 17.600px 0em;
+}
+
+#mainmenu section .flex article div i{
+    border: 0;
+    font-size: 100%;
+    padding-left: 0;
+
+}
 
 /* Final del Menu */
 
@@ -543,6 +563,10 @@ main section .flexblog article .articlebody{
         margin: 0 auto;
     
     }
+    #mainmenu section .flex{
+        flex-direction: column;
+        width: 100%;
+    }
 
 }
 
@@ -562,6 +586,13 @@ main section .flexblog article .articlebody{
 
     footer{
         text-align: left;
+    }
+
+   
+
+    #mainmenu section .flexmenu{
+        display: flex;
+        
     }
 
 }
