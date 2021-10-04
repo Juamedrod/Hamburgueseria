@@ -616,6 +616,10 @@ main section div div .precio span{
         margin-top: 0;
     }
 
+    #mainmenu section article p{
+        margin: 1.3em  0;    
+    }
+
 }
 
 
