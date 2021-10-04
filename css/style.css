@@ -324,8 +324,15 @@ main #aboutus figure .marco{
 
 main #aboutus figure .marco img{
     transform: rotateZ(-10deg);
+    transition: 1s;
 
 }
+
+main #aboutus figure:hover .marco, main #aboutus figure:hover .marco img{
+    transform: rotateZ(0deg);
+
+}
+
 
 
 
@@ -450,7 +457,6 @@ main section .flexblog article .articlebody{
 }
 
 
-
 /*Final Blog*/
 
 
@@ -473,12 +479,18 @@ main section .flexblog article .articlebody{
         width: 100%;
     }
    
+    main #aboutus .columna{
+        width: 50%;
+        padding: 1.5em;
+    }
+
+    main #aboutus figure{
+        width: 90%;
+        margin: 0 auto;
+    
+    }
 
 }
-
-
-
-
 
 
 /*Media de 768px */
