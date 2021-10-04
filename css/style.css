@@ -469,8 +469,20 @@ main section .flexblog article .articlebody{
     background-color: var(--colorSecundario);
 }
 
+#mainmenu h2, #mainmenu p, #mainmenu h3{
+    color: white;
+}
 
+#mainmenu section article p{
+    margin: 1em 0;
+    
+}
 
+#mainmenu section article{
+    border: 0;
+    padding: 0 3em;
+    margin: 1em auto;
+}
 /* Final del Menu */
 
 
