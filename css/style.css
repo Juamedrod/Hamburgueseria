@@ -256,7 +256,7 @@ main section .flex{
 
 main section .flex article{
     width: 100%;
-    padding-bottom: 2em;
+    padding: 2em 0em;
     border-bottom: 1px solid grey;
 }
 
@@ -266,6 +266,27 @@ main section .flex article h3{
 
 }
 
+
+main section .flex article p{
+    color:#777;
+    line-height: 1.10em;
+    margin-bottom: 0.5em;
+
+}
+
+.enlace{
+    text-decoration: none;
+    color: var(--colorPrincipal);
+    font-weight: 700;
+
+}
+
+main section .flex article div i{
+    border: 1px solid var(--colorPrincipal);
+    color: var(--colorPrincipal);
+    font-size: 150%;
+    padding: 0.5em;
+}
 /*Final Services*/
 
 
