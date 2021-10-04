@@ -500,6 +500,15 @@ main section .flexblog article .articlebody{
     margin-bottom: 3em;
 }
 
+#mainmenu section .flexmenu {
+    margin-top: 3em;
+}
+
+#mainmenu section .flexmenu .ofertas p{
+    line-height: 150%;
+    padding-right: 3em;
+}
+
 #mainmenu section div div:last-child hr{
     width: 50px;
     border-color: var(--colorPrincipal);
