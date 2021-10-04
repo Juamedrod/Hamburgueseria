@@ -267,7 +267,7 @@ main section .flex article h3{
 }
 
 
-main section .flex article p{
+main section p{
     color:#777;
     line-height: 1.10em;
     margin-bottom: 0.5em;
@@ -294,7 +294,23 @@ main section .flex article div i{
 }
 /*Final Services*/
 
+/*Inicio del About Us*/
 
+main section h3{    
+    font-weight: 700;
+    font-size: 110%;
+}
+
+main section h4{
+    color: var(--colorPrincipal);
+    font-weight: 700;
+    margin: var(--margingrid) 0;
+    
+}
+
+
+
+/*Fin del About Us*/
 
 /*Inicio Footer*/
 
