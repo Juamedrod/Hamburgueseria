@@ -308,6 +308,26 @@ main section h4{
     
 }
 
+main #aboutus figure{
+    width: 90%;
+    margin: 2em auto;
+
+}
+  
+
+main #aboutus figure .marco{
+    border: 3px solid var(--colorPrincipal);
+    transform: rotateZ(10deg);
+    transition: 1s;
+
+}
+
+main #aboutus figure .marco img{
+    transform: rotateZ(-10deg);
+
+}
+
+
 
 
 /*Fin del About Us*/
