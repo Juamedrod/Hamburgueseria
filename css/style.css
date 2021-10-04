@@ -287,6 +287,11 @@ main section .flex article div i{
     font-size: 150%;
     padding: 0.5em;
 }
+
+.fa-truck{
+
+    transform: rotateY(180deg);
+}
 /*Final Services*/
 
 
@@ -418,7 +423,25 @@ main section .flexblog article .articlebody{
 /*****************************************/
 /*********   MEDIAQUERIES        *********/
 
+@media(min-width:37.500em)
+{
+    main section .flex article{
+        width: calc(50% - (2*var(--margingrid)));
+        padding: 0em var(--margingrid);
+        border-left: 1px solid grey;
+        border-bottom: 0;
+        margin: var(--margingrid);
+    }
+   
 
+}
+
+
+
+
+
+
+/*Media de 768px */
 @media(min-width:48em){
     header .nav-top a span{        
         display: inline;
@@ -429,7 +452,7 @@ main section .flexblog article .articlebody{
 }
 
 
-
+/*media de 1004px*/
 @media(min-width:62.75em){
 
 header nav .hamburguesa{
