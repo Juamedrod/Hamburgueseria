@@ -470,18 +470,12 @@ main section .flexblog article .articlebody{
     
 }
 
-
-
-#mainmenu section article p{
-    margin-bottom: 0.75em ;    
+#mainmenu section article{
+    margin-bottom: 1em;
 }
 
-
-
-#mainmenu section article{
-    border: 0;  
-    padding: 0;      
-    
+#mainmenu section article p{
+    margin: 0.75em  0;    
 }
 
 #mainmenu ul li a{
@@ -517,18 +511,12 @@ main section .flexblog article .articlebody{
 main section div div .precio{
     display: flex;
     justify-content: space-between;
+    margin-top: 1em;
 }
 
 main section div div .precio span{
     color: var(--colorPrincipal);
-    margin: 17.600px 0em;
-}
-
-#mainmenu section .flex article div i{
-    border: 0;
-    font-size: 100%;
-    padding-left: 0;
-
+   
 }
 
 /* Final del Menu */
@@ -563,10 +551,7 @@ main section div div .precio span{
         margin: 0 auto;
     
     }
-    #mainmenu section .flex{
-        flex-direction: column;
-        width: 100%;
-    }
+    
 
 }
 
@@ -592,7 +577,34 @@ main section div div .precio span{
 
     #mainmenu section .flexmenu{
         display: flex;
-        
+        flex-wrap: wrap;        
+    }
+
+    #mainmenu section .flexmenu>div:first-child{
+        width: calc(30% - var(--margingrid));
+        margin-right: var(--margingrid);
+    }
+
+    #mainmenu section .flexmenu>div:last-child{
+        width: calc(70% - var(--margingrid));
+        margin-left: var(--margingrid);
+    }
+
+    #mainmenu section .flexmenu article{
+        display: flex;
+        width: 100%;
+    }
+
+    #mainmenu section .flexmenu article figure{
+        width: 25%;
+    }
+    #mainmenu section .flexmenu article .descripcion{
+        width: 75%;
+        margin-left: 1em;
+    }
+
+    main section div div .precio {
+        margin-top: 0;
     }
 
 }
