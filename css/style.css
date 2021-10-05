@@ -597,41 +597,7 @@ main section div div .precio span{
 
    
 
-    #mainmenu section .flexmenu{
-        display: flex;
-        flex-wrap: wrap;        
-    }
-
-    #mainmenu section .flexmenu>div:first-child{
-        width: calc(30% - var(--margingrid));
-        margin-right: var(--margingrid);
-    }
-
-    #mainmenu section .flexmenu>div:last-child{
-        width: calc(70% - var(--margingrid));
-        margin-left: var(--margingrid);
-    }
-
-    #mainmenu section .flexmenu article{
-        display: flex;
-        width: 100%;
-    }
-
-    #mainmenu section .flexmenu article figure{
-        width: 25%;
-    }
-    #mainmenu section .flexmenu article .descripcion{
-        width: 75%;
-        margin-left: 1em;
-    }
-
-    main section div div .precio {
-        margin-top: 0;
-    }
-
-    #mainmenu section article p{
-        margin: 1.3em  0;    
-    }
+    
 
 }
 
@@ -673,4 +639,42 @@ main section .flexblog article{
     margin: 0 5px;
     
 }
+
+#mainmenu section .flexmenu{
+    display: flex;
+    flex-wrap: wrap;        
+}
+
+#mainmenu section .flexmenu>div:first-child{
+    width: calc(30% - var(--margingrid));
+    margin-right: var(--margingrid);
+}
+
+#mainmenu section .flexmenu>div:last-child{
+    width: calc(70% - var(--margingrid));
+    margin-left: var(--margingrid);
+}
+
+#mainmenu section .flexmenu article{
+    display: flex;
+    width: 100%;
+}
+
+#mainmenu section .flexmenu article figure{
+    width: 25%;
+}
+#mainmenu section .flexmenu article .descripcion{
+    width: 75%;
+    margin-left: 1em;
+}
+
+main section div div .precio {
+    margin-top: 0;
+}
+
+#mainmenu section article p{
+    margin: 1.3em  0;    
+}
+
+
 }
