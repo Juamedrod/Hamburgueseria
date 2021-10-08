@@ -526,6 +526,7 @@ main section div div .precio{
 
 main section div div .precio span{
     color: var(--colorPrincipal);
+    font-size: 110%;
    
 }
 
